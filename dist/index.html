@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Grayscale - Start Bootstrap Theme</title>
+        <title>Georgian College AutoShow</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
@@ -31,7 +31,7 @@
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contactus">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -83,14 +83,14 @@
                                     <h4 class="text-white">Schedule of Events</h4>
                                     <p class="m-2 text-white-50">To obtain a complete list of events, please click on the link provided by the relevant organization or venue, which may lead you to their official website or other authorized sources.</p>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
-                                    <a class="btn btn-secondary" href="#">Download Events</a>
+                                    <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#myModal" id="showevents">Show Events</a>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Map Two Row-->
+                <!-- Map Row-->
                 <div class="row gx-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
@@ -100,14 +100,14 @@
                                     <h4 class="text-white">Map</h4>
                                     <p class="m-2 text-white-50">To obtain the map for the autoshow, please follow the link or directions provided by the event organizers, which may be available on their website, social media pages, or through other promotional materials.</p>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
-                                    <a class="btn btn-secondary" href="#">Download Map</a>
+                                    <a class="btn btn-secondary" data-toggle="modal" data-target="#mapModal" href="#">Show Map</a>
                                     <hr class="d-none d-lg-block mb-0 me-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Tickets Two Row-->
+                <!-- Tickets Row-->
                 <div class="row gx-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
                     <div class="col-lg-6">
@@ -117,7 +117,7 @@
                                     <h4 class="text-white">Tickets</h4>
                                     <p class="m-2 text-white-50">To purchase tickets for an event, please click on the link provided by the event organizers or authorized ticket sellers, which may lead you to their website or other designated sales channels.</p>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
-                                    <a class="btn btn-secondary" href="https://www.eventbrite.ca/e/2023-georgian-college-auto-show-tickets-579284524607?aff=ebdssbdestsearch">Tickets</a>
+                                    <a class="btn btn-secondary" href="https://www.eventbrite.ca/e/2023-georgian-college-auto-show-tickets-579284524607?aff=ebdssbdestsearch">Get Tickets</a>
                                     <hr class="d-none d-lg-block mb-0 me-0" />
                                 </div>
                             </div>
@@ -126,6 +126,215 @@
                 </div>
             </div>
         </section>
+
+        <!-- Schedule Modal-->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="myModalLabel">Events Schedule</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Event</th>
+                        <th>Location</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Friday, June 2nd</td>
+                        <td>11:00am - 12:00pm</td>
+                        <td>Opening Ceremonies and Flag Raising</td>
+                        <td>Main Stage</td>
+                      </tr>
+                      <tr>
+                        <td>Friday, June 2nd</td>
+                        <td>12:00pm - 5:00pm</td>
+                        <td>Electric Vehicle test drives</td>
+                        <td>Beside parking lot A</td>
+                      </tr>
+                      <tr>
+                        <td>Friday, June 2nd</td>
+                        <td>12:00pm - 5:00pm</td>
+                        <td>Pfaff Autocross Track</td>
+                        <td>Lot E/H</td>
+                      </tr>
+                      <tr>
+                        <td>Friday, June 2nd</td>
+                        <td>02:00pm - 02:30pm</td>
+                        <td>Red Barn Dog Show</td>
+                        <td>Kidzone field</td>
+                      </tr>
+                      <tr>
+                        <td>Friday, June 2nd</td>
+                        <td>03:30pm - 04:15pm</td>
+                        <td>Electric Cars are NOW – Everything you want to know!</td>
+                        <td>Main Stage</td>
+                      </tr>
+                      <tr>
+                        <td>Friday, June 2nd</td>
+                        <td>04:00pm - 04:30pm</td>
+                        <td>Red Barn Dog Show</td>
+                        <td>Kidzone field</td>
+                      </tr>
+                      <!-- Add more rows for other events -->
+          
+                      <tr>
+                        <td>Saturday, June 3rd</td>
+                        <td>10:00am - 06:00pm</td>
+                        <td>Electric Vehicle test drives</td>
+                        <td>beside parking lot A</td>
+                      </tr>
+                      <tr>
+                        <td>Saturday, June 3rd</td>
+                        <td>10:00am - 06:00pm</td>
+                        <td>Smart Adventures Mini Bike Rides</td>
+                        <td>Kidzone field</td>
+                      </tr>
+                      <tr>
+                        <td>Saturday, June 3rd</td>
+                        <td>10:00am - 06:00pm</td>
+                        <td>Pfaff Autocross Track</td>
+                        <td>Lot E/H</td>
+                      </tr>
+                      <tr>
+                        <td>Saturday, June 3rd</td>
+                        <td>11:00am - 11:30pm</td>
+                        <td>Red Barn Event Centre Canine Performance</td>
+                        <td>Kidzonefield</td>
+                      </tr>
+                      <tr>
+                        <td>Saturday, June 3rd</td>
+                        <td>11:30am - 12:15pm</td>
+                        <td>Electric Cars are NOW – Everything you want to know!</td>
+                        <td>Main Stage</td>
+                      </tr>
+                      <tr>
+                        <td>Saturday, June 3rd</td>
+                        <td>01:00pm - 03:00pm</td>
+                        <td>Silent Auction</td>
+                        <td>Main Stage, Electric Avenue</td>
+                      </tr>
+                      <tr>
+                        <td>Saturday, June 3rd</td>
+                        <td>01:30pm - 02:00pm</td>
+                        <td>Red Barn Event Centre Canine Performance</td>
+                        <td>Kidzone field</td>
+                      </tr>
+                      <tr>
+                        <td>Saturday, June 3rd</td>
+                        <td>02:00pm - 02:30pm</td>
+                        <td>Automotive Fire Extraction Demo</td>
+                        <td>Kidzone field</td>
+                      </tr>
+                      <tr>
+                        <td>Saturday, June 3rd</td>
+                        <td>03:30am - 04:00pm</td>
+                        <td>Show N' Shine Awards "Tuner Division"</td>
+                        <td>parking lot A</td>
+                      </tr>
+                      <tr>
+                        <td>Saturday, June 3rd</td>
+                        <td>04:00am - 04:30pm</td>
+                        <td>Red Barn Event Centre Canine Performance</td>
+                        <td>Kidzone field</td>
+                      </tr>
+                      <!-- Add more rows for other events -->
+          
+                      <tr>
+                        <td>Sunday, June 4th</td>
+                        <td>10:00am - 5:00pm</td>
+                        <td>Smart Adventures Mini Bike Rides</td>
+                        <td>Kidzone Field</td>
+                      </tr>
+                      <tr>
+                        <td>Sunday, June 4th</td>
+                        <td>10:00am - 5:00pm</td>
+                        <td>Pfaff Autocross Track</td>
+                        <td>Lot E/H</td>
+                      </tr>
+                      <tr>
+                        <td>Sunday, June 4th</td>
+                        <td>10:00am - 5:00pm</td>
+                        <td>Electric Vehicle test drives</td>
+                        <td>Beside parking lot A</td>
+                      </tr>
+                      <tr>
+                        <td>Sunday, June 4th</td>
+                        <td>11:00am - 11:30am</td>
+                        <td>Red Barn Event Centre Canine Performance</td>
+                        <td>Kidzone Field</td>
+                      </tr>
+                      <tr>
+                        <td>Sunday, June 4th</td>
+                        <td>11:30am - 12:15pm</td>
+                        <td>Electric Cars are NOW – Everything you want to know!</td>
+                        <td>Main Stage</td>
+                      </tr>
+                      <tr>
+                        <td>Sunday, June 4th</td>
+                        <td>01:30pm - 02:00pm</td>
+                        <td>Red Barn Event Centre Canine Performance</td>
+                        <td>Kidzone field</td>
+                      </tr>
+                      <tr>
+                        <td>Sunday, June 4th</td>
+                        <td>02:00pm - 02:30pm</td>
+                        <td>Automotive Fire Extraction Demo</td>
+                        <td>Kidzone field</td>
+                      </tr>
+                      <tr>
+                        <td>Sunday, June 4th</td>
+                        <td>02:30pm - 03:15pm</td>
+                        <td>Electric Cars are NOW – Everything you want to know!</td>
+                        <td>Main Stage</td>
+                      </tr>
+                      <tr>
+                        <td>Sunday, June 4th</td>
+                        <td>03:30pm - 04:00pm</td>
+                        <td>Show N' Shine Awards "Muscles and Classics"</td>
+                        <td>parking lot A</td>
+                      </tr>
+                      <tr>
+                        <td>Sunday, June 4th</td>
+                        <td>04:00pm - 04:30pm</td>
+                        <td>Red Barn Event Centre Canine Performance</td>
+                        <td>Kidzone Field</td>
+                      </tr>
+                      <!-- Add more rows for other events -->
+                    </tbody>
+                  </table>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Map Modal-->
+        <div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="mapModalLabel">Event Map</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/ScheduleMap.png" style="max-width: 100%; height: auto;" alt="Image">
+                </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Team-->
         <section class="team-section text-center" id="team">
@@ -162,59 +371,18 @@
                 </div>
             </div>
         </section>
-
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
-                            <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                            </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
+       
         <!-- Contact-->
-        <section class="contact-section bg-black">
+        <section class="contact-section bg-black" id="contactus">
             <div class="container px-4 px-lg-5">
+                <div class="col-auto text-center">
+                    <h2 class="text-white mb-4">Connect with us</h2>
+                </div>
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt mb-2" style="color: #ae6bb2;"></i>
+                                <i class="fas fa-map-marked-alt mb-2" style="color: #333f48;"></i>
                                 <h4 class="text-uppercase m-0">Address</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50">1 Georgian Dr, Barrie, ON L4M 3X9</div>
@@ -224,7 +392,7 @@
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fa-solid fa-envelope mb-2" style="color: #ae6bb2;"></i>
+                                <i class="fa-solid fa-envelope mb-2" style="color: #333f48;"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50"><a href="#!">AutomotiveBusinessSchool.ca</a></div>
@@ -234,7 +402,7 @@
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fa-solid fa-mobile-screen mb-2" style="color: #ae6bb4;"></i>
+                                <i class="fa-solid fa-mobile-screen mb-2" style="color: #333f48;"></i>
                                 <h4 class="text-uppercase m-0">Phone</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50">+1 (705) 728-1968 ext. 1234</div>
@@ -253,12 +421,14 @@
         <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Georgian Autoshow 2023</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
     </body>
 </html>

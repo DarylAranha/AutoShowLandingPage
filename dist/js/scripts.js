@@ -51,4 +51,10 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    const myModalElement = document.querySelector('#myModal');
+  
+    myModalElement.addEventListener('click', function() {
+        $('#myModal').modal('show');
+    });
+
 });
