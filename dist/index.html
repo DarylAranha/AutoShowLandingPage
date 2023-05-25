@@ -7,13 +7,20 @@
         <meta name="author" content="" />
         <title>Georgian College AutoShow</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
+        <!-- Slick CSS -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -28,10 +35,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contactus">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sponsors">Sponsors</a></li>
                     </ul>
                 </div>
             </div>
@@ -41,7 +49,8 @@
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">AutoShow</h1>
+                        <!-- <h1 class="mx-auto my-0 text-uppercase">Georgian College</h1> -->
+                        <h1 class="mx-auto my-0 text-uppercase">Auto Show</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">Make cars more than a passion.<br>Make them a career and learn from the best.</h2>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
                         <a class="btn btn-primary" href="#about">Get Started</a>
@@ -49,25 +58,6 @@
                 </div>
             </div>
         </header>
-
-        <!-- About-->
-        <section class="about-section text-center" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-sm-6" >
-                        <h2 class="text-white mb-4">Automotive Business School of Canada</h2>
-                        <p class="text-white-50 text-justify">
-                            The Automotive Business School of Canada at Georgian College was created over 30 years ago by the autmovtive industry, for the automotive industry.
-                            Offereing unique undergraduate business study options for those lokking to become the future leaders of the industry in Canada. Our students graduate with up to one year of paid co-op work experience,
-                            top networking opportunities, and a specialized education that will set them apart.
-                        </p>
-                    </div>
-                    <div class="col-sm-6">
-                        <img class="img-fluid" src="assets/img/bg_masthead.png" style="width: 30rem;" alt="..." />
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- Events-->
         <section class="events-section bg-light" id="events">
@@ -81,7 +71,7 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
                                     <h4 class="text-white">Schedule of Events</h4>
-                                    <p class="m-2 text-white-50">To obtain a complete list of events, please click on the link provided by the relevant organization or venue, which may lead you to their official website or other authorized sources.</p>
+                                    <!-- <p class="m-2 text-white-50">To obtain a complete list of events, please click on the link provided by the relevant organization or venue, which may lead you to their official website or other authorized sources.</p> -->
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                     <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#myModal" id="showevents">Show Events</a>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
@@ -97,8 +87,8 @@
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Map</h4>
-                                    <p class="m-2 text-white-50">To obtain the map for the autoshow, please follow the link or directions provided by the event organizers, which may be available on their website, social media pages, or through other promotional materials.</p>
+                                    <h4 class="text-white">Show Map</h4>
+                                    <!-- <p class="m-2 text-white-50">To obtain the map for the autoshow, please follow the link or directions provided by the event organizers, which may be available on their website, social media pages, or through other promotional materials.</p> -->
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                     <a class="btn btn-secondary" data-toggle="modal" data-target="#mapModal" href="#">Show Map</a>
                                     <hr class="d-none d-lg-block mb-0 me-0" />
@@ -107,17 +97,17 @@
                         </div>
                     </div>
                 </div>
-                <!-- Tickets Row-->
+                <!-- Survey Row-->
                 <div class="row gx-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/events three.jpg" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Tickets</h4>
-                                    <p class="m-2 text-white-50">To purchase tickets for an event, please click on the link provided by the event organizers or authorized ticket sellers, which may lead you to their website or other designated sales channels.</p>
+                                    <h4 class="text-white">Auto Show Survey</h4>
+                                    <!-- <p class="m-2 text-white-50">To purchase tickets for an event, please click on the link provided by the event organizers or authorized ticket sellers, which may lead you to their website or other designated sales channels.</p> -->
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
-                                    <a class="btn btn-secondary" href="https://www.eventbrite.ca/e/2023-georgian-college-auto-show-tickets-579284524607?aff=ebdssbdestsearch">Get Tickets</a>
+                                    <a class="btn btn-secondary" href="https://georgiancollege.questionpro.ca/GeorgianAutoShow2023">Enter to win</a>
                                     <hr class="d-none d-lg-block mb-0 me-0" />
                                 </div>
                             </div>
@@ -130,194 +120,208 @@
         <!-- Schedule Modal-->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="myModalLabel">Events Schedule</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <ul class="nav nav-tabs  justify-content-center" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="friday-tab" data-toggle="tab" href="#friday" role="tab" aria-controls="friday" aria-selected="true">Friday, June 2nd</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="saturday-tab" data-toggle="tab" href="#saturday" role="tab" aria-controls="saturday" aria-selected="false">Saturday, June 3rd</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="sunday-tab" data-toggle="tab" href="#sunday" role="tab" aria-controls="sunday" aria-selected="false">Sunday, June 4th</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body" style="overflow-y: auto;">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="friday" role="tabpanel" aria-labelledby="friday-tab">
+                        <!-- Friday's events -->
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Event</th>
+                                    <th>Location</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>11:00am - 12:00pm</td>
+                                    <td>Opening Ceremonies and Flag Raising</td>
+                                    <td>Main Stage</td>
+                                </tr>
+                                <tr>
+                                    <td>12:00pm - 5:00pm</td>
+                                    <td>Electric Vehicle test drives</td>
+                                    <td>Beside parking lot A</td>
+                                </tr>
+                                <tr>
+                                    <td>12:00pm - 5:00pm</td>
+                                    <td>Pfaff Autocross Track</td>
+                                    <td>Lot E/H</td>
+                                </tr>
+                                <tr>
+                                    <td>02:00pm - 02:30pm</td>
+                                    <td>Red Barn Dog Show</td>
+                                    <td>Kidzone field</td>
+                                </tr>
+                                <tr>
+                                    <td>03:30pm - 04:15pm</td>
+                                    <td>Electric Cars are NOW – Everything you want to know!</td>
+                                    <td>Main Stage</td>
+                                </tr>
+                                <tr>
+                                    <td>04:00pm - 04:30pm</td>
+                                    <td>Red Barn Dog Show</td>
+                                    <td>Kidzone field</td>
+                                </tr>
+                                <!-- Add more rows for other events -->
+                            </tbody>
+                        </table>
+                        </div>
+                        <div class="tab-pane fade" id="saturday" role="tabpanel" aria-labelledby="saturday-tab">
+                        <!-- Saturday's events -->
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Event</th>
+                                    <th>Location</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>10:00am - 06:00pm</td>
+                                <td>Electric Vehicle test drives</td>
+                                <td>beside parking lot A</td>
+                            </tr>
+                            <tr>
+                                <td>10:00am - 06:00pm</td>
+                                <td>Smart Adventures Mini Bike Rides</td>
+                                <td>Kidzone field</td>
+                            </tr>
+                            <tr>
+                                <td>10:00am - 06:00pm</td>
+                                <td>Pfaff Autocross Track</td>
+                                <td>Lot E/H</td>
+                            </tr>
+                            <tr>
+                                <td>11:00am - 11:30pm</td>
+                                <td>Red Barn Event Centre Canine Performance</td>
+                                <td>Kidzonefield</td>
+                            </tr>
+                            <tr>
+                                <td>11:30am - 12:15pm</td>
+                                <td>Electric Cars are NOW – Everything you want to know!</td>
+                                <td>Main Stage</td>
+                            </tr>
+                            <tr>
+                                <td>01:00pm - 03:00pm</td>
+                                <td>Silent Auction</td>
+                                <td>Main Stage, Electric Avenue</td>
+                            </tr>
+                            <tr>
+                                <td>01:30pm - 02:00pm</td>
+                                <td>Red Barn Event Centre Canine Performance</td>
+                                <td>Kidzone field</td>
+                            </tr>
+                            <tr>
+                                <td>02:00pm - 02:30pm</td>
+                                <td>Automotive Fire Extraction Demo</td>
+                                <td>Kidzone field</td>
+                            </tr>
+                            <tr>
+                                <td>03:30am - 04:00pm</td>
+                                <td>Show N' Shine Awards "Tuner Division"</td>
+                                <td>parking lot A</td>
+                            </tr>
+                            <tr>
+                                <td>04:00am - 04:30pm</td>
+                                <td>Red Barn Event Centre Canine Performance</td>
+                                <td>Kidzone field</td>
+                            </tr>
+                                <!-- Add more rows for other events -->
+                            </tbody>
+                        </table>
+                        </div>
+                        <div class="tab-pane fade" id="sunday" role="tabpanel" aria-labelledby="sunday-tab">
+                        <!-- Sunday's events -->
+                        <table class="table">
+                        <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Event</th>
+                                    <th>Location</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>10:00am - 5:00pm</td>
+                                    <td>Smart Adventures Mini Bike Rides</td>
+                                    <td>Kidzone Field</td>
+                                </tr>
+                                <tr>
+                                    <td>10:00am - 5:00pm</td>
+                                    <td>Pfaff Autocross Track</td>
+                                    <td>Lot E/H</td>
+                                </tr>
+                                <tr>
+                                    <td>10:00am - 5:00pm</td>
+                                    <td>Electric Vehicle test drives</td>
+                                    <td>Beside parking lot A</td>
+                                </tr>
+                                <tr>
+                                    <td>11:00am - 11:30am</td>
+                                    <td>Red Barn Event Centre Canine Performance</td>
+                                    <td>Kidzone Field</td>
+                                </tr>
+                                <tr>
+                                    <td>11:30am - 12:15pm</td>
+                                    <td>Electric Cars are NOW – Everything you want to know!</td>
+                                    <td>Main Stage</td>
+                                </tr>
+                                <tr>
+                                    <td>01:30pm - 02:00pm</td>
+                                    <td>Red Barn Event Centre Canine Performance</td>
+                                    <td>Kidzone field</td>
+                                </tr>
+                                <tr>
+                                    <td>02:00pm - 02:30pm</td>
+                                    <td>Automotive Fire Extraction Demo</td>
+                                    <td>Kidzone field</td>
+                                </tr>
+                                <tr>
+                                    <td>02:30pm - 03:15pm</td>
+                                    <td>Electric Cars are NOW – Everything you want to know!</td>
+                                    <td>Main Stage</td>
+                                </tr>
+                                <tr>
+                                    <td>03:30pm - 04:00pm</td>
+                                    <td>Show N' Shine Awards "Muscles and Classics"</td>
+                                    <td>parking lot A</td>
+                                </tr>
+                                <tr>
+                                    <td>04:00pm - 04:30pm</td>
+                                    <td>Red Barn Event Centre Canine Performance</td>
+                                    <td>Kidzone Field</td>
+                                </tr>
+                                <!-- Add more rows for other events -->
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
-                <div class="modal-body" style="overflow-y: auto;">
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Event</th>
-                        <th>Location</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Friday, June 2nd</td>
-                        <td>11:00am - 12:00pm</td>
-                        <td>Opening Ceremonies and Flag Raising</td>
-                        <td>Main Stage</td>
-                      </tr>
-                      <tr>
-                        <td>Friday, June 2nd</td>
-                        <td>12:00pm - 5:00pm</td>
-                        <td>Electric Vehicle test drives</td>
-                        <td>Beside parking lot A</td>
-                      </tr>
-                      <tr>
-                        <td>Friday, June 2nd</td>
-                        <td>12:00pm - 5:00pm</td>
-                        <td>Pfaff Autocross Track</td>
-                        <td>Lot E/H</td>
-                      </tr>
-                      <tr>
-                        <td>Friday, June 2nd</td>
-                        <td>02:00pm - 02:30pm</td>
-                        <td>Red Barn Dog Show</td>
-                        <td>Kidzone field</td>
-                      </tr>
-                      <tr>
-                        <td>Friday, June 2nd</td>
-                        <td>03:30pm - 04:15pm</td>
-                        <td>Electric Cars are NOW – Everything you want to know!</td>
-                        <td>Main Stage</td>
-                      </tr>
-                      <tr>
-                        <td>Friday, June 2nd</td>
-                        <td>04:00pm - 04:30pm</td>
-                        <td>Red Barn Dog Show</td>
-                        <td>Kidzone field</td>
-                      </tr>
-                      <!-- Add more rows for other events -->
-          
-                      <tr>
-                        <td>Saturday, June 3rd</td>
-                        <td>10:00am - 06:00pm</td>
-                        <td>Electric Vehicle test drives</td>
-                        <td>beside parking lot A</td>
-                      </tr>
-                      <tr>
-                        <td>Saturday, June 3rd</td>
-                        <td>10:00am - 06:00pm</td>
-                        <td>Smart Adventures Mini Bike Rides</td>
-                        <td>Kidzone field</td>
-                      </tr>
-                      <tr>
-                        <td>Saturday, June 3rd</td>
-                        <td>10:00am - 06:00pm</td>
-                        <td>Pfaff Autocross Track</td>
-                        <td>Lot E/H</td>
-                      </tr>
-                      <tr>
-                        <td>Saturday, June 3rd</td>
-                        <td>11:00am - 11:30pm</td>
-                        <td>Red Barn Event Centre Canine Performance</td>
-                        <td>Kidzonefield</td>
-                      </tr>
-                      <tr>
-                        <td>Saturday, June 3rd</td>
-                        <td>11:30am - 12:15pm</td>
-                        <td>Electric Cars are NOW – Everything you want to know!</td>
-                        <td>Main Stage</td>
-                      </tr>
-                      <tr>
-                        <td>Saturday, June 3rd</td>
-                        <td>01:00pm - 03:00pm</td>
-                        <td>Silent Auction</td>
-                        <td>Main Stage, Electric Avenue</td>
-                      </tr>
-                      <tr>
-                        <td>Saturday, June 3rd</td>
-                        <td>01:30pm - 02:00pm</td>
-                        <td>Red Barn Event Centre Canine Performance</td>
-                        <td>Kidzone field</td>
-                      </tr>
-                      <tr>
-                        <td>Saturday, June 3rd</td>
-                        <td>02:00pm - 02:30pm</td>
-                        <td>Automotive Fire Extraction Demo</td>
-                        <td>Kidzone field</td>
-                      </tr>
-                      <tr>
-                        <td>Saturday, June 3rd</td>
-                        <td>03:30am - 04:00pm</td>
-                        <td>Show N' Shine Awards "Tuner Division"</td>
-                        <td>parking lot A</td>
-                      </tr>
-                      <tr>
-                        <td>Saturday, June 3rd</td>
-                        <td>04:00am - 04:30pm</td>
-                        <td>Red Barn Event Centre Canine Performance</td>
-                        <td>Kidzone field</td>
-                      </tr>
-                      <!-- Add more rows for other events -->
-          
-                      <tr>
-                        <td>Sunday, June 4th</td>
-                        <td>10:00am - 5:00pm</td>
-                        <td>Smart Adventures Mini Bike Rides</td>
-                        <td>Kidzone Field</td>
-                      </tr>
-                      <tr>
-                        <td>Sunday, June 4th</td>
-                        <td>10:00am - 5:00pm</td>
-                        <td>Pfaff Autocross Track</td>
-                        <td>Lot E/H</td>
-                      </tr>
-                      <tr>
-                        <td>Sunday, June 4th</td>
-                        <td>10:00am - 5:00pm</td>
-                        <td>Electric Vehicle test drives</td>
-                        <td>Beside parking lot A</td>
-                      </tr>
-                      <tr>
-                        <td>Sunday, June 4th</td>
-                        <td>11:00am - 11:30am</td>
-                        <td>Red Barn Event Centre Canine Performance</td>
-                        <td>Kidzone Field</td>
-                      </tr>
-                      <tr>
-                        <td>Sunday, June 4th</td>
-                        <td>11:30am - 12:15pm</td>
-                        <td>Electric Cars are NOW – Everything you want to know!</td>
-                        <td>Main Stage</td>
-                      </tr>
-                      <tr>
-                        <td>Sunday, June 4th</td>
-                        <td>01:30pm - 02:00pm</td>
-                        <td>Red Barn Event Centre Canine Performance</td>
-                        <td>Kidzone field</td>
-                      </tr>
-                      <tr>
-                        <td>Sunday, June 4th</td>
-                        <td>02:00pm - 02:30pm</td>
-                        <td>Automotive Fire Extraction Demo</td>
-                        <td>Kidzone field</td>
-                      </tr>
-                      <tr>
-                        <td>Sunday, June 4th</td>
-                        <td>02:30pm - 03:15pm</td>
-                        <td>Electric Cars are NOW – Everything you want to know!</td>
-                        <td>Main Stage</td>
-                      </tr>
-                      <tr>
-                        <td>Sunday, June 4th</td>
-                        <td>03:30pm - 04:00pm</td>
-                        <td>Show N' Shine Awards "Muscles and Classics"</td>
-                        <td>parking lot A</td>
-                      </tr>
-                      <tr>
-                        <td>Sunday, June 4th</td>
-                        <td>04:00pm - 04:30pm</td>
-                        <td>Red Barn Event Centre Canine Performance</td>
-                        <td>Kidzone Field</td>
-                      </tr>
-                      <!-- Add more rows for other events -->
-                    </tbody>
-                  </table>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
             </div>
-          </div>
+        </div>
 
         <!-- Map Modal-->
         <div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel" aria-hidden="true">
@@ -330,7 +334,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <img src="assets/img/ScheduleMap.png" style="max-width: 100%; height: auto;" alt="Image">
+                    <img src="assets/img/show_map.jpeg" style="max-width: 100%; height: auto;" alt="Image">
                 </div>
                 </div>
             </div>
@@ -340,33 +344,142 @@
         <section class="team-section text-center" id="team">
             <div class="container px-4 px-lg-5">
                 <div class="col-auto text-center">
-                    <h2 class="text-white mb-4">Meet your directors</h2>
+                    <h2 class="text-white mb-4">Meet your Directors</h2>
                 </div>
                 <div class="row justify-content-around">
                     <div class="card col-sm-2 m-sm-2" style="width: 14rem;">
-                        <img class="card-img" src="assets/img/jack.jpg" alt="...">
+                    <a href="https://www.linkedin.com/in/jack-sills-76a2b31a1/" style="text-decoration: none;">
+                        <img class="card-img" src="assets/img/jack.jpg" alt="Jack Sills">
                         <p class="mb-0 text-black-50 fs-5">Jack Sills</p>
-                        <!-- <p class="mb-0 text-black-50">Director of Student Experience</p> -->
+                        <p class="mb-0 text-black-50 fs-6">Director, Student Experience</p>
+                    </a>
                     </div>
                     <div class="card col-sm-2 m-sm-2" style="width: 14rem;">
-                        <img class="card-img-top" src="assets/img/jason.jpg" alt="...">
+                    <a href="https://www.linkedin.com/in/jason-wu-67788596/" style="text-decoration: none;">
+                        <img class="card-img-top" src="assets/img/jason.jpg" alt="Jason Wu">
                         <p class="mb-0 text-black-50 fs-5">Jason Wu</p>
-                        <!-- <p class="mb-0 text-black-50">Director of Site Management and Logistics</p> -->
+                        <p class="mb-0 text-black-50 fs-6">Director of Site Management and Logistics</p>
+                        </a>
                     </div>
                     <div class="card col-sm-2 m-sm-2" style="width: 14rem;">
-                        <img class="card-img-top" src="assets/img/harrison.jpg" alt="...">
+                    <a href="https://www.linkedin.com/in/harrison-reid-69099b266/" style="text-decoration: none;">
+                        <img class="card-img-top" src="assets/img/harrison.jpg" alt="Harrison Reid">
                         <p class="mb-0 text-black-50 fs-5">Harrison Reid</p>
-                        <!-- <p class="mb-0 text-black-50">Director of Customer Experience</p> -->
+                        <p class="mb-0 text-black-50 fs-6">Director, Customer Experience</p>
+                        </a>
                     </div>
                     <div class="card col-sm-2 m-sm-2" style="width: 14rem;">
-                        <img class="card-img-top" src="assets/img/grace.jpg" alt="...">
+                    <a href="https://www.linkedin.com/in/grace-stein-830591221/" style="text-decoration: none;">
+                        <img class="card-img-top" src="assets/img/grace.jpg" alt="Grace Stein">
                         <p class="mb-0 text-black-50 fs-5">Grace Stein</p>
-                        <!-- <p class="mb-0 text-black-50">Director of Media and Marketing Relations</p> -->
+                        <p class="mb-0 text-black-50 fs-6">Director, Marketing and Media Relations</p>
+                    </a>
                     </div>
                     <div class="card col-sm-2 m-sm-2" style="width: 14rem;">
-                        <img class="card-img-top" src="assets/img/brenden.jpg" alt="...">
+                    <a href="https://www.linkedin.com/in/brendan-currie-472481132/" style="text-decoration: none;">
+                        <img class="card-img-top" src="assets/img/brenden.jpg" alt="Brendan Currie">
                         <p class="mb-0 text-black-50 fs-5">Brendan Currie</p>
-                        <!-- <p class="mb-0 text-black-50">Director of Sponsorship and Performance</p> -->
+                        <p class="mb-0 text-black-50 fs-6">Director, Sponsorship and Performance</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-sm-6" >
+                    <h2 class="text-black mb-4">Georgian College Auto Show</h2>
+                    <p class="text-black-50 text-justify">
+                        The Automotive Business School of Canada at Georgian College was created over 30 years ago by the autmovtive industry, for the automotive industry.
+                        Offereing unique undergraduate business study options for those lokking to become the future leaders of the industry in Canada. Our students graduate with up to one year of paid co-op work experience,
+                        top networking opportunities, and a specialized education that will set them apart.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <img class="img-fluid" src="assets/img/bg_masthead.png" style="width: 30rem;" alt="..." />
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Sponsors-->
+        <section class="sponsors-section text-center" id="sponsors">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-white mb-4">Thank you to our sponsors for making this event possible</h2>
+                
+                <div class="logo-slider">
+                    <div class="card py-4 h-100" style="width: 300px; height: 300px; background-color: white;">
+                        <div class="card-body text-center">
+                            <img src="assets/img/sponsors_img/AC001_RightRide_Logo_Horizontal_Secondary_RGB.png" alt="Logo 1" style="max-width: 100%; max-height: 100%;">
+                        </div>
+                    </div>
+                    <div class="card py-4 h-100" style="width: 300px; height: 300px; background-color: white;">
+                        <div class="card-body text-center">
+                            <img src="assets/img/sponsors_img/Alumni Association.jpg" alt="Logo 3" style="max-width: 100%; max-height: 100%;">
+                        </div>
+                    </div>
+                    <div class="card py-4 h-100" style="width: 300px; height: 300px; background-color: white;">
+                        <div class="card-body text-center">
+                            <img src="assets/img/sponsors_img/AutoIQ.jpg" alt="Logo 4" style="max-width: 100%; max-height: 100%;">
+                        </div>
+                    </div>
+                    <div class="card py-4 h-100" style="width: 300px; height: 300px; background-color: white;">
+                        <div class="card-body text-center">
+                            <img src="assets/img/sponsors_img/CADA.jpg" alt="Logo 1" style="max-width: 100%; max-height: 100%;">
+                        </div>
+                    </div>
+                    <div class="card py-4 h-100" style="width: 300px; height: 300px; background-color: white;">
+                        <div class="card-body text-center">
+                            <img src="assets/img/sponsors_img/Humberview Group.png" alt="Logo 2" style="max-width: 100%; max-height: 100%;">
+                        </div>
+                    </div>
+                    <div class="card py-4 h-100" style="width: 300px; height: 300px; background-color: white;">
+                        <div class="card-body text-center">
+                            <img src="assets/img/sponsors_img/PBS.jpg" alt="Logo 3" style="max-width: 100%; max-height: 100%;">
+                        </div>
+                    </div>
+                    <div class="card py-4 h-100" style="width: 300px; height: 300px; background-color: white;">
+                        <div class="card-body text-center">
+                            <img src="assets/img/sponsors_img/Performance Auto Group.png" alt="Logo 4" style="max-width: 100%; max-height: 100%;">
+                        </div>
+                    </div>
+                    <div class="card py-4 h-100" style="width: 300px; height: 300px; background-color: white;">
+                        <div class="card-body text-center">
+                            <img src="assets/img/sponsors_img/Rock95.jpg" alt="Logo 1" style="max-width: 100%; max-height: 100%;">
+                        </div>
+                    </div>
+                    <div class="card py-4 h-100" style="width: 300px; height: 300px; background-color: white;">
+                        <div class="card-body text-center">
+                            <img src="assets/img/sponsors_img/Scotiabank.png" alt="Logo 2" style="max-width: 100%; max-height: 100%;">
+                        </div>
+                    </div>
+                    <div class="card py-4 h-100" style="width: 300px; height: 300px; background-color: white;">
+                        <div class="card-body text-center">
+                            <img src="assets/img/sponsors_img/Stouffville Toyota.jpg" alt="Logo 3" style="max-width: 100%; max-height: 100%;">
+                        </div>
+                    </div>
+                    <div class="card py-4 h-100" style="width: 300px; height: 300px; background-color: white;">
+                        <div class="card-body text-center">
+                            <img src="assets/img/sponsors_img/SymTech.png" alt="Logo 4" style="max-width: 100%; max-height: 100%;">
+                        </div>
+                    </div>
+                    <div class="card py-4 h-100" style="width: 300px; height: 300px; background-color: white;">
+                        <div class="card-body text-center">
+                            <img src="assets/img/sponsors_img/Templeton Marsh.jpg" alt="Logo 4" style="max-width: 100%; max-height: 100%;">
+                        </div>
+                    </div>
+                    <div class="card py-4 h-100" style="width: 300px; height: 300px; background-color: white;">
+                        <div class="card-body text-center">
+                            <img src="assets/img/sponsors_img/Weins Auto Group.jpg" alt="Logo 4" style="max-width: 100%; max-height: 100%;">
+                        </div>
+                    </div>
+                    <div class="card py-4 h-100" style="width: 300px; height: 300px; background-color: white;">
+                        <div class="card-body text-center">
+                            <img src="assets/img/sponsors_img/Wyant Group.jpg" alt="Logo 4" style="max-width: 100%; max-height: 100%;">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -395,7 +508,7 @@
                                 <i class="fa-solid fa-envelope mb-2" style="color: #333f48;"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">AutomotiveBusinessSchool.ca</a></div>
+                                <div class="small text-black-50"><a href="mailto:autoshow@georgiancollege.ca">autoshow@georgiancollege.ca</a></div>
                             </div>
                         </div>
                     </div>
@@ -403,28 +516,33 @@
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fa-solid fa-mobile-screen mb-2" style="color: #333f48;"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <h4 class="text-uppercase m-0">Find us on Social</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (705) 728-1968 ext. 1234</div>
+                                <div class="social d-flex justify-content-center">
+                                    <a class="mx-2" href="https://www.instagram.com/gcautoshow/"><i class="fab fa-instagram"></i></a>
+                                    <a class="mx-2" href="https://www.facebook.com/gcautoshow/"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="mx-2" href="https://twitter.com/georgiancollege"><i class="fab fa-twitter"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="https://www.instagram.com/gcautoshow/"><i class="fab fa-instagram"></i></a>
-                    <a class="mx-2" href="https://www.facebook.com/gcautoshow/"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="https://twitter.com/georgiancollege"><i class="fab fa-twitter"></i></a>
-                </div>
             </div>
         </section>
+
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Georgian Autoshow 2023</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+        <!-- Slick JS -->
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->

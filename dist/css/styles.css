@@ -7802,8 +7802,9 @@ textarea.form-control-lg {
 }
 
 .fs-6 {
-  font-size: 1rem !important;
+  font-size: 0.75rem !important;
 }
+
 
 .fst-italic {
   font-style: italic !important;
@@ -11620,14 +11621,23 @@ body {
 .about-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  /* background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%); */
 }
 .about-section p {
   margin-bottom: 5rem;
 }
 
+.sponsors-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.sponsors-section p {
+  margin-bottom: 5rem;
+}
+
 .events-section {
-  padding: 10rem 0;
+  padding: 2rem 0;
 }
 .events-section .featured-text {
   padding: 2rem;
@@ -11705,9 +11715,7 @@ body {
   border-width: 0.25rem;
   width: 3rem;
 }
-.contact-section .social {
-  margin-top: 5rem;
-}
+
 .contact-section .social a {
   text-align: center;
   height: 3rem;
@@ -11722,6 +11730,18 @@ body {
 }
 .contact-section .social a:active {
   color: var(--bs-tertiary-scheme);
+}
+
+.logo-slider-container {
+  /* max-width: 800px; Adjust the width as needed */
+  margin: 0 auto; /* Center the slider container */
+}
+
+.logo-slider img {
+  max-width: 100%; /* Make the logos responsive */
+  height: auto; /* Maintain aspect ratio */
+  padding: auto;
+  object-fit: cover; /* Ensure the images maintain their aspect ratio */
 }
 
 .footer {
