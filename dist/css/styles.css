@@ -11662,9 +11662,12 @@ body {
 .events-section {
   padding: 2rem 0;
 }
-.events-section .featured-text {
-  padding: 2rem;
+
+.events-section .project-text {
+  padding-bottom: 1.25rem;
+  padding-top: 1.25rem;
 }
+
 @media (min-width: 992px) {
   .events-section .featured-text {
     padding: 0 0 0 2rem;
