@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-primary-scheme: #004b87;
+  --bs-primary-scheme: #004B87;
   --bs-secondary-scheme: #77c5d5;
   --bs-tertiary-scheme: #333f48;
   --bs-sexy-pink: #AE6BB2;
@@ -11644,7 +11644,7 @@ body {
 .about-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  /* background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%); */
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11687,12 +11687,41 @@ body {
 }
 
 .team-section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  /* background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%); */
 }
 .team-section p {
   margin-bottom: 5rem;
+}
+
+.team-section .card {
+  border: 0;
+  border-top: 0.05rem solid #000;
+  border-left: 0.05rem solid #000;
+  border-right: 0.05rem solid #000;
+  border-bottom: 0.25rem solid #64a19d;
+
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.team-section .card h4, .team-section .card .h4 {
+  font-size: 0.8rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+.team-section .card hr {
+  border-color: #64a19d;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+
+@media (min-width: 992px) {
+  /* .team-section .card {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  } */
 }
 
 .signup-section {
