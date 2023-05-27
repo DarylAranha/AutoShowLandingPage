@@ -11601,10 +11601,19 @@ body {
   max-width: 20rem;
   font-size: 1.75rem;
 }
+
+.masthead .subtitle {
+  font-size: 1rem;
+}
+
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
     font-size: 3.75rem;
     line-height: 4rem;
+  }
+
+  .masthead .subtitle {
+    font-size: 1.25rem;
   }
 }
 @media (min-width: 992px) {
@@ -11619,12 +11628,16 @@ body {
   }
   .masthead h2, .masthead .h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   .masthead .title {
     max-width: 30rem;
     font-size: 2.75rem;
+  }
+
+  .masthead .subtitle {
+    font-size: 1.25rem;
   }
 }
 
