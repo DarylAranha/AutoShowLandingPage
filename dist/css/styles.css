@@ -4723,7 +4723,7 @@ textarea.form-control-lg {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  border-radius: calc(0.25rem - 1px);
+  /* border-radius: calc(0.25rem - 1px); */
 }
 
 .card-img,
@@ -11660,8 +11660,8 @@ body {
 }
 
 .sponsors-section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .sponsors-section p {
@@ -11804,7 +11804,7 @@ body {
 .logo-slider img {
   max-width: 100%; /* Make the logos responsive */
   height: auto; /* Maintain aspect ratio */
-  padding: auto;
+  /* padding: auto; */
   object-fit: cover; /* Ensure the images maintain their aspect ratio */
 }
 
