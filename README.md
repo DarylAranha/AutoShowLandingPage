@@ -4,7 +4,7 @@ The Georgian College Autoshow app is the ultimate guide for auto enthusiasts, pr
 
 ## Preview
 
-[![Grayscale Preview](https://assets.startbootstrap.com/img/screenshots/themes/grayscale.png)](https://startbootstrap.github.io/startbootstrap-grayscale/)
+![Landing Page]([http://url/to/img.png](https://github.com/DarylAranha/AutoShowLandingPage/blob/master/dist/assets/img/project-1.png))
 
 
 
